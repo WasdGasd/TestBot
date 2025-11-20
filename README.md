@@ -5,20 +5,16 @@ VK отправляет события на ваш сервер → ваш API �
 
 📁 Структура проекта
 VKB_CB
+
+├── Controllers(CallbackController.cs)
+│      
 │
-├── Controllers
-│     └── CallbackController.cs
+├── Services(IMessageService.cs, MessageService.cs)
+│    
 │
-├── Services
-│     ├── IMessageService.cs
-│     └── MessageService.cs
-│
-├── VK
-│     ├── Models
-│           ├── VkCallbackRequest.cs
-│           ├── VkEvent.cs
-│           └── VkMessage.cs
-│
+├── VK(Models(VkCallbackRequest.cs, VkEvent.cs, VkMessage.cs))
+│     
+│                     
 ├── appsettings.json
 ├── Program.cs
 └── VKB_CB.http
