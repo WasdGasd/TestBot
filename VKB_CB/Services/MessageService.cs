@@ -1,6 +1,7 @@
 ﻿using System.Text.Json;
 using VK.Models;
 using System.Net.Http.Json;
+using VK;
 
 namespace Services
 {
